@@ -1,0 +1,57 @@
+.resident--{
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    max-width: 1024px;
+    margin: 0 auto;
+    gap: 1rem;
+    overflow: hidden;
+    transition: transform 200ms ease;
+}
+.resident--:hover{
+    transform: scale(1.03);
+}
+.info--card{
+    position: relative;
+
+}
+.info--status{
+    display: flex;
+    background-color: #062226a6;
+    position: absolute;
+    top: 10px;
+    padding: 0.3em 0.5em;
+    border-radius: 0 0.5em 0.5em 0;
+    gap: 0.3rem;
+}
+.status--circle{
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.Alive{
+    background-color: rgb(11, 238, 11);
+}
+.Dead{
+    background-color: red;
+}
+.info--residet--dropdown{
+    padding: 1.4em 1.2em 2em;
+}
+.name--residet{
+    padding: 0.3em;
+    text-align: center;
+}
+.hr{
+    opacity: 0.3;
+}
+.residet--list{
+    display: grid;
+    gap: 1em;
+}
+.residet--label{
+    color: #ccc9;
+    padding-left: 1em;
+    font-size: 0.9rem;
+}
